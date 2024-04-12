@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.error{
+    color: red;
+    display: none ;
+}
+.gen{
+    background: burlywood;
+    max-width: 50rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.fill{
+    width:47rem;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+.btn{
+    color:green;
+    background-color:aqua;
+    cursor: pointer;
+    padding: 7px;
+    border: aqua;
+}
+#thanks{
+    display: none;
+    background-color: blueviolet;
+}
+.btn:hover{
+    background-color: blue;
+}
